@@ -36,7 +36,7 @@ Create a `.env.local` file in the root directory with the following variables:
 
 ```env
 
-# Octav API Key (REQUIRED for Portfolio API)
+# Octav API Key (REQUIRED for Octav API)
 # Get your API key at https://data.octav.fi
 OCTAV_API_KEY=your_octav_api_key_here
 ```
