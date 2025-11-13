@@ -27,7 +27,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     <Sidebar className="bg-background relative" collapsible="icon" {...props}>
       <SidebarHeader>
         <div className={cn('flex items-center gap-3 px-2 my-6', isExpanded ? 'flex-row' : 'flex-col')}>
-          <Image src="/logo.png" alt="Template Logo" width={30} height={30} />
+          <Image src="/logo.svg" alt="Template Logo" width={30} height={30} />
           {isExpanded && <p className="text-foreground font-semibold text-lg">Template</p>}
         </div>
       </SidebarHeader>
